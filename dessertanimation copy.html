@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banana Pudding</title>
+<link rel="stylesheet" type="text/css" href="hoverdropdown.css">
+<link rel="stylesheet" type="text/css" href="dessert.css">
+
+
+</head>
+
+
+<body>
+
+<div>
+
+<h1>My First Animation</h1>
+
+	<div class="dropdown">
+		<div class="button">Dessert</div>
+		<div class="list">
+			<a href="bananas.jpg">Banana</a>
+			<a href="cookies.jpg">Cookies</a>
+			<a href="pudding.jpg">Pudding</a>
+		</div>
+	</div>
+
+	<div id="container">
+
+		<div id="banana"><img src="bananas.jpg"></div>
+		<div id="cookies"><img src="cookies.jpg"></div>
+		<div id="pudding"><img src="pudding.jpg"></div>
+	</div>
+
+<button type="button" onclick= "Move()">Click Me</button>
+
+</div>
+
+<script type="text/javascript">
+
+function Move() {
+
+	var banana = document.getElementById("banana");
+	var cookies = document.getElementById("cookies");
+	var pudding = document.getElementById("pudding");
+	var pos = 0;
+	var id = setInterval (frame, 10);
+	function frame () {
+		if (pos == 700) {
+			clearInterval(id);
+		} else{
+			pos++;
+			banana.style.top = pos + 'px';
+			banana.style.left = pos + 'px';
+			cookies.style.top = pos + 'px';
+			pudding.style.left = pos + 'px';
+		}
+	}
+}
+
+</script>
+</body>
+</html>

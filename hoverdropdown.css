@@ -1,0 +1,97 @@
+body {text-align: center}
+
+
+
+.button {
+	background-color: #DBA200;
+    color: #FDF3D7;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 100px;
+
+}
+.dropdown {
+	text-align: center;
+	position: relative;
+    display: inline-block;
+
+}
+.list {
+	padding: 5px;
+	display: none;
+    position: absolute;
+    background-color: #FFDF85;
+    min-width: 100px;
+}
+.list a{
+	display: block;
+	text-decoration: none;
+	color:#DBA200;
+}
+.list a:hover{
+	background: black;
+}
+
+.dropdown:hover .list{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.dropButton
+
+
+center tags around div!!!!!
+
+#container {
+	background-color: yellow;
+	color: orange;
+	border: 2px;
+	display:black;
+	padding: 5px;
+}
+
+.dropButton: hover 
+#dropbutton {
+
+	background-color: orange;
+	color: blue;
+	border:groove;
+}
+
+.menu-items
+
+#menuitems {
+	display: none;
+	width: 100px;
+	list-style: none;
+}
+
+.container:hover
+.menu-items
+
+#dropbutton
+#menuitems {
+	display: block;
+*/}
+

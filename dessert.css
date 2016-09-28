@@ -1,0 +1,41 @@
+h1 {
+color: #DBA200;
+text-align: center;
+text-decoration-style: bold;
+
+}
+#container {
+	margin: 0 auto;
+	width:800px;
+	height: 800px;
+	background: white;
+}
+
+#banana {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 0;
+	background-color: #FDF3D7;
+}
+#cookies {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 0;
+	background-color: #FDF3D7;
+}
+
+#pudding {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 0;
+	background-color: #FDF3D7;
+}
+
+
+img {
+	height:100px; 
+	width: 100px;
+}
